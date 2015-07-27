@@ -1,0 +1,138 @@
+{% extends "irmasoftHomeBundle::layout.html.twig" %}
+{% block container %}
+<!-- Page Content -->
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide" style="height: 50%;
+top: -50px;">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="my_slider1">
+{#                    <div class="fill"></div>#}
+                </div>
+                <div class="carousel-caption">
+                    <h2>DÉVELOPPEMENT WEB</h2>
+                    <p>
+                        Site vitrine, Boutique en ligne, Site communautaire, Blog Wordpress
+                        Irmasoft assure l'étude, la conception et le développement de votre site web PHP
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="my_slider2">
+                </div>
+                <div class="carousel-caption">
+{#                    <div class="fill"></div>#}
+                    <h2>APPLICATIONS MOBILE</h2>
+                    <p>
+                        Notre agence vous conseille et vous accompagne dans toutes 
+                        les étapes de création de votre application mobile pour 
+                        tablettes et smartphones
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="my_slider3">
+{#                    <div class="fill"></div>#}
+                </div>
+                <div class="carousel-caption">
+                    <h2>FORMATION JAVA / J2EE</h2>
+                    <p>
+                        Comment débuter en programmation ? Quel langage pour débuter ? où se former ? 
+                        Irmasoft vous assure une formation à haut niveau en programmation orienté objet Java / J2EE
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Bienvenue chez Irmasoft
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-code  "></i> DÉVELOPPEMENT WEB</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Grâce à votre connaissance du terrain, de notre expertise web marketing et nos conseils techniques, nous assurerons le lancement optimal de votre projet web. Votre site doit bien-sûr être agréable à regarder, mais pas seulement. Il doit être convivial, simple d'utilisation et séduire votre publique.</p>
+                        <a href="#" class="btn btn-default">Plus de détails</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-mobile"></i> APPLICATION MOBILE</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Notre agence mobile vous conseille et vous accompagne sur toutes les étapes de création de votre application mobile: Conception, Développement, Design et ergonomie, Performance. Nos experts en mobilités intégrent vos besoins métiers et élaborent avec brio vos applications mobiles sur toutes les plateformes .</p>
+                        <a href="#" class="btn btn-default">Plus de détails</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-users"></i> FORMATION JAVA / J2EE</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Nous vous proposons une formation à la programmation Java / J2EE afin de vous permettre de prendre rapidement l'outil en main, de découvrir ses fonctionnalités et d'améliorer votre gestion quotidienne. Cette formation est ouverte à tous, que vous soyez nouveau salarié dans une entreprise.</p>
+                        <a href="#" class="btn btn-default">Plus de détails</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Irmasoft</h2>
+            </div>
+            <div class="col-md-6">
+                <p>The Modern Business template by Start Bootstrap includes:</p>
+                <div id="callout-helper-bg-specificity" class="bs-callout bs-callout-info">
+                <ul>
+                    <li><strong>Bootstrap v3.2.0</strong>
+                    </li>
+                    <li>jQuery v1.11.0</li>
+                    <li>Font Awesome v4.1.0</li>
+                    <li>Working PHP contact form with validation</li>
+                    <li>Unstyled page elements for easy customization</li>
+                    <li>17 HTML pages</li>
+                </ul>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="{{ asset('bundles/irmasofthome/images/talents.jpg') }}" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+{% endblock%}

@@ -1,0 +1,15 @@
+irmasoft_home_homepage:
+    path:     /
+    defaults: { _controller: irmasoftHomeBundle:Default:index }
+
+irmasoft_home_contact:
+    path:     /contact
+    defaults: { _controller: irmasoftHomeBundle:Default:contact }
+
+irmasoft_home_about:
+    path:     /about
+    defaults: { _controller: irmasoftHomeBundle:Default:about }
+
+irmasoft_home_services:
+    path:     /services
+    defaults: { _controller: irmasoftHomeBundle:Default:services }
