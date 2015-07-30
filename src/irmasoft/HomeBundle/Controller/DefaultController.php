@@ -21,6 +21,10 @@ class DefaultController extends Controller
     public function servicesAction()
     {
         return $this->render('irmasoftHomeBundle:Default:services.html.twig');
+    }    
+    public function devWebAction()
+    {
+        return $this->render('irmasoftHomeBundle:Default:servicesWeb.html.twig');
     }
     public function contactAction(Request $request)
     {

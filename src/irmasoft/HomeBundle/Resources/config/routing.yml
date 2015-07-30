@@ -13,3 +13,7 @@ irmasoft_home_about:
 irmasoft_home_services:
     path:     /services
     defaults: { _controller: irmasoftHomeBundle:Default:services }
+
+irmasoft_home_services_web:
+    path:     /services/developpement-web
+    defaults: { _controller: irmasoftHomeBundle:Default:devWeb }
