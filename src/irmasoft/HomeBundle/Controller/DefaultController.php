@@ -24,7 +24,17 @@ class DefaultController extends Controller
     }    
     public function devWebAction()
     {
-        return $this->render('irmasoftHomeBundle:Default:servicesWeb.html.twig');
+        return $this->render('irmasoftHomeBundle:Default:devWeb.html.twig');
+    }
+        
+    public function formationsAction()
+    {
+        return $this->render('irmasoftHomeBundle:Default:formations.html.twig');
+    }
+        
+    public function appsMobileAction()
+    {
+        return $this->render('irmasoftHomeBundle:Default:appsMobile.html.twig');
     }
     public function contactAction(Request $request)
     {

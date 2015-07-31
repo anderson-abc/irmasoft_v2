@@ -17,3 +17,11 @@ irmasoft_home_services:
 irmasoft_home_services_web:
     path:     /services/developpement-web
     defaults: { _controller: irmasoftHomeBundle:Default:devWeb }
+
+irmasoft_home_formations:
+    path:     /services/formations
+    defaults: { _controller: irmasoftHomeBundle:Default:formations }
+
+irmasoft_home_apps_mobile:
+    path:     /services/Application-Mobile
+    defaults: { _controller: irmasoftHomeBundle:Default:appsMobile }
